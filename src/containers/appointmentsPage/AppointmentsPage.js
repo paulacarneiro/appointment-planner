@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { AppointmentForm } from '../../components/appointmentForm/AppointmentForm';
 import { TileList } from "../../components/tileList/TileList";
 
