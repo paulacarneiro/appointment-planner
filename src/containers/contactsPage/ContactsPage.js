@@ -27,14 +27,14 @@ export const ContactsPage = ({
       setPhone('');
       setEmail('');
 
-    // if (!isDuplicate) {
-    //   addContact(name, phone, email);
-    //   setName('');
-    //   setPhone('');
-    //   setEmail('');
-    // } else {
-    //   alert('Name already exists in contact list.'); //!!!!
-    // }
+    if (!isDuplicate) {
+      addContact(name, phone, email);
+      setName('');
+      setPhone('');
+      setEmail('');
+    } else {
+      alert('Name already exists in contact list.'); //!!!!
+    }
     
   };
 
