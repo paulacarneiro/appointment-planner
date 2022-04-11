@@ -22,7 +22,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,5 +43,8 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
